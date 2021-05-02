@@ -17,7 +17,7 @@ endfunction
 
 "Start timer
 function! worktimer#starttimer() dict
-    let self.timerid = timer_start(100, self.countdown, {'repeat': -1})
+    let self.timerid = timer_start(1000, self.countdown, {'repeat': -1})
 endfunction
 
 "Pause timer

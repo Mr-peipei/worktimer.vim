@@ -65,16 +65,16 @@ dict						*dict*
 :TimerStart					*:TimerStart*
 
 
-:PauseTimer					*:PauseTimer*
+:TimerPause					*:TimerPause*
 
 
-:StopTimer					*:StopTimer*
+:TimerStop					*:TimerStop*
 
 
-:SetTimer {}					*:SetTimer*
+:TimerChange {}					*:TimerChange*
 
 
-:SetWord {}					*:SetWord*
+:TimerWordChange {}				*:TimerWordChange*
 
 
 ------------------------------------------------------------------------------

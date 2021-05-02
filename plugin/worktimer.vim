@@ -4,7 +4,7 @@
 " License:      This file is placed in the public domain.
 
 "set a default timer
-let dict = {'count': 100,
+let dict = {'count': 30,
             \'savecount': 0,
             \'timecount': '',
             \'word': 'You work too macth, Take a break!',
@@ -21,8 +21,8 @@ let dict = {'count': 100,
 command! TimerStart 
             \call dict.savetimer()
             \|call dict.starttimer()
-command! PauseTimer call dict.pausetimer()
-command! StopTimer call dict.stoptimer()
-command! -nargs=1 SetTimer call dict.changetimer(<f-args>)
-command! -nargs=1 SetWord call dict.changeword(<f-args>)
+command! TimerPause call dict.pausetimer()
+command! TimerStop call dict.stoptimer()
+command! -nargs=1 TimerChange call dict.changetimer(<f-args>)
+command! -nargs=1 TimerWordChange call dict.changeword(<f-args>)
 
