@@ -54,7 +54,7 @@ Change word when timer finished by:
 ```vim
 :TimerWordChange
 ```
-default message is "You work too match, take a break!"
+default message is "You work too match, take a break!"  
 ![スクリーンショット 2021-05-02 19 59 40](https://user-images.githubusercontent.com/54967427/116810855-06e90f00-ab81-11eb-8f69-c14411bb14ad.png)
 
 ### key mappings  
