@@ -15,6 +15,8 @@ Plug 'Mr-peipei/worktimer.vim',{ 'branch': 'main' }
 ```
 and use `:PlugInstall` commnad
 
+<Not available in the |sandbox|.>
+{only available when compiled with the |+timers| feature}
 ## Usage
 
 ### Command  
