@@ -15,17 +15,6 @@ Plug 'Mr-peipei/worktimer.vim',{ 'branch': 'main' }
 ```
 and use `:PlugInstall` commnad
 
-If you use neobundle
-```
-NeoBundle 'Mr-peipei/session.vim'
-```
-
-If you use dein.vim
-```
-call dein#add('Mr-peipei/session.vim')
-```
-
-
 ## Usage
 
 ### Command  
